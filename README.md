@@ -1,4 +1,4 @@
-# healthcare-intelligence
+# Healthcare Informatics
 Healthcare skill intelligence system
 
 Project overview & features:
@@ -11,7 +11,19 @@ Database - Python
 
 Setup steps & How to run locally (copy-paste commands):
 
+
 Environment variable examples:
+SECRET_KEY=supersecretkey123
+DATABASE_URL=sqlite:///database.db
+ADMIN_EMAIL=admin@example.com
+DEBUG=True
+
+Database Configuration
+DATABASE_URL=sqlite:///database.db
+
+Server Configuration
+HOST=127.0.0.1
+PORT=5500
 
 Test login credentials (if needed)
 Gmail: of your choice (eg: 123@gmail.com, password: 1234, name: of your choice)
