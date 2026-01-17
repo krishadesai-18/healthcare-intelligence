@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthIntel | Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">HealthIntel</div>
+  <nav>
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="login.html" id="logout">Logout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <div class="container">
+    <h1>Dashboard</h1>
+    <p class="muted">Overview of your skills, progress, and career alignment</p>
+
+    <!-- Welcome + Career -->
+    <div class="career-summary">
+      <h2 id="userName">Welcome, User</h2>
+      <p><strong>Career Goal:</strong> <span id="careerGoal">Select your career in profile</span></p>
+    </div>
+
+    <h2>Skills Progress</h2>
+    <div class="skill-grid">
+      <!-- JS will render skill cards here -->
+    </div>
+
+    <h2>Skills Gap</h2>
+    <div id="skillsGap" class="skill-gap">
+      <p>Select skills in your profile to see gap for your career goal.</p>
+    </div>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

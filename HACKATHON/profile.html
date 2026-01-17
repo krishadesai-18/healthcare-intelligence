@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthIntel | Build Skills</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">HealthIntel</div>
+  <nav>
+    <ul>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="login.html" id="logout">Logout</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="page">
+  <div class="container">
+    <h1>Build Your Skill Profile</h1>
+    <p class="muted">Select your skills, proficiency, and career goal</p>
+
+    <!-- Skills Section -->
+    <div class="skill-grid">
+      <div class="skill-box">
+        <label><input type="checkbox"> Python</label>
+        <select>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+      </div>
+
+      <div class="skill-box">
+        <label><input type="checkbox"> SQL</label>
+        <select>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+      </div>
+
+      <div class="skill-box">
+        <label><input type="checkbox"> FHIR</label>
+        <select>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+      </div>
+
+      <div class="skill-box">
+        <label><input type="checkbox"> HIPAA</label>
+        <select>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+      </div>
+
+      <div class="skill-box">
+        <label><input type="checkbox"> Machine Learning</label>
+        <select>
+          <option>Beginner</option>
+          <option>Intermediate</option>
+          <option>Advanced</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Career Goal Section -->
+    <div class="career-section">
+      <h2>Choose Your Career Goal</h2>
+      <select id="careerSelect">
+        <option value="">-- Select Career Role --</option>
+        <option value="Health Informatics Analyst">Health Informatics Analyst</option>
+        <option value="Healthcare Data Analyst">Healthcare Data Analyst</option>
+        <option value="Medical AI Specialist">Medical AI Specialist</option>
+        <option value="Hospital IT Specialist">Hospital IT Specialist</option>
+      </select>
+      <div id="careerDescription" class="career-desc"></div>
+    </div>
+
+    <button class="btn-primary big" id="saveSkillsBtn">Save & Continue</button>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
