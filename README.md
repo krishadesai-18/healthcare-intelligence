@@ -12,8 +12,8 @@ Database - Python-based database management
 Setup steps & How to run locally (copy-paste commands):
 python --version
 git --version
-git clone <your-repository-url>
-cd <project-folder>
+git clone <https://github.com/krishadesai-18/Code-and-Chaos/tree/main>
+cd <HACKATHON>
 python -m venv venv
 venv\Scripts\activate
 source venv/bin/activate
